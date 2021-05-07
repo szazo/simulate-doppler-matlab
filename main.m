@@ -1,5 +1,5 @@
 distance_from_road_m = 20; % observer's distance from the road
-car_speed_kmh = 200; % car's speed in km/h
+car_speed_kmh = 100; % car's speed in km/h
 temperature_c = 20; % outside temperature in celsius
 
 test_sound('siren1_loop_ready.wav', 'siren1_output.wav', distance_from_road_m, car_speed_kmh, temperature_c);
